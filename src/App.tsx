@@ -1,9 +1,11 @@
 import SimpleScrollTrigger from "./components/SimpleScrollTrigger";
+import SplitTextComp from "./components/SplitText";
 
 function App() {
   return (
-    <div className="w-screen h-screen flex flex-col items-center justify-center">
-      <SimpleScrollTrigger />
+    <div>
+      {/* <SimpleScrollTrigger /> */}
+      <SplitTextComp />
     </div>
   );
 }
