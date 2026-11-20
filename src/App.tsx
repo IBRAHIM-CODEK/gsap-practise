@@ -1,12 +1,9 @@
 import SmoothScrollTrigger from "./components/SmoothScrollTrigger";
+import TryingHorizontalPin from "./components/TryingHorizontalPin";
 function App() {
   return (
-    <div id="smooth-wrapper">
-      <div id="smooth-content">
-        <div className="box">
-          <SmoothScrollTrigger />
-        </div>
-      </div>
+    <div>
+      <TryingHorizontalPin />
     </div>
   );
 }
