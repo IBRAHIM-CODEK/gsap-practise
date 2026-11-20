@@ -1,11 +1,12 @@
-import SimpleScrollTrigger from "./components/SimpleScrollTrigger";
-import SplitTextComp from "./components/SplitText";
-
+import SmoothScrollTrigger from "./components/SmoothScrollTrigger";
 function App() {
   return (
-    <div>
-      {/* <SimpleScrollTrigger /> */}
-      <SplitTextComp />
+    <div id="smooth-wrapper">
+      <div id="smooth-content">
+        <div className="box">
+          <SmoothScrollTrigger />
+        </div>
+      </div>
     </div>
   );
 }
