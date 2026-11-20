@@ -1,9 +1,9 @@
-import SmoothScrollTrigger from "./components/SmoothScrollTrigger";
-import TryingHorizontalPin from "./components/TryingHorizontalPin";
+import HorizontalPinSplitText from "./components/HorizontalPinSplitText";
+
 function App() {
   return (
     <div>
-      <TryingHorizontalPin />
+      <HorizontalPinSplitText />
     </div>
   );
 }
